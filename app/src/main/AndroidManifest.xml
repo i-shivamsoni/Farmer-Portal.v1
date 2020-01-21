@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AboutusActivity"></activity>
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".AboutusActivity" />
         <activity android:name=".ProductActivity" />
         <activity android:name=".RegisteredActivity" />
         <activity android:name=".ComActivity" />

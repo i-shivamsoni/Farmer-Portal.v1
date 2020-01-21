@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
@@ -16,6 +17,7 @@ public class ComActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_com);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         t = (TextView)findViewById(R.id.textView18);
 
         Intent i = getIntent();
@@ -24,7 +26,15 @@ public class ComActivity extends AppCompatActivity {
         t.setText("WELCOME "+uname);
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        onBackPressed();
+        return true;
+    }
+
     public void prof(View view){
+        Intent intent = new Intent(this,ProfileActivity.class);
+        startActivity(intent);
 
     }
 
