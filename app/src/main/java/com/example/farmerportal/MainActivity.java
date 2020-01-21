@@ -1,0 +1,52 @@
+package com.example.farmerportal;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.text.Html;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity {
+
+    String root = "87707234";
+    String root_pass = "toor";
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+    public void log(View view){
+        EditText phoneId = findViewById(R.id.editText);
+        EditText passId = findViewById(R.id.editText2);
+        String phoneid = phoneId.getText().toString();
+        String pass_1 = passId.getText().toString();
+
+        if(phoneid.equalsIgnoreCase(root) && pass_1.equals(root_pass)){
+            Intent intent = new Intent(this,ComActivity.class);
+            intent.putExtra("phoneid",phoneid);
+            startActivity(intent);
+
+
+        }
+        else{
+            AlertDialog.Builder b = new AlertDialog.Builder(MainActivity.this);
+            b.setMessage("WRONG ID AND PASSWORD").setPositiveButton("OK",null).setCancelable(false);
+
+            AlertDialog alert = b.create();
+            alert.show();
+        }
+       // Toast.makeText(this,phone_pass,Toast.LENGTH_SHORT).show();
+
+    }
+    public void register(View view) {
+        Intent intent = new Intent(this,RegisterActivity.class);
+        startActivity(intent);
+    }
+}
