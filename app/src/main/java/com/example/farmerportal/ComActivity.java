@@ -47,4 +47,10 @@ public class ComActivity extends AppCompatActivity {
         Intent intent = new Intent(this,AboutusActivity.class);
         startActivity(intent);
     }
+
+    public void out(View view){
+        Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
+    }
+
 }

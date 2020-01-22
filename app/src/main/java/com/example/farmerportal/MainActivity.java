@@ -37,7 +37,15 @@ public class MainActivity extends AppCompatActivity {
         String pass_1 = passId.getText().toString();
 
         if(phoneid.equalsIgnoreCase(root) && pass_1.equals(root_pass)){
-            Intent intent = new Intent(this,ComActivity.class);
+            String cat = "buyer";
+            Class a;
+            if(cat.equalsIgnoreCase("buyer")){
+                a = BuyerActivity.class;
+            }
+            else{
+                a = ComActivity.class;
+            }
+            Intent intent = new Intent(this, a);
             intent.putExtra("phoneid",phoneid);
             startActivity(intent);
 
