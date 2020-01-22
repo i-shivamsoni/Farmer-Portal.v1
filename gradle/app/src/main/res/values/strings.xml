@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Farmer Portal</string>
+    <string name="head">Farmer\'s Portal</string>
+    <string name="wel">Welcome to</string>
+    <string name="acc"><u>Create Account</u></string>
+    <string-array name="user">
+        <item>Buyer</item>
+        <item>Seller</item>
+    </string-array>
+    <string-array name="lang">
+        <item>English</item>
+        <item>Hindi</item>
+    </string-array>
+    <string-array name="cat">
+        <item>Rice</item>
+        <item>Wheat</item>
+        <item>Onion</item>
+        <item>Tomato</item>
+        <item>Cabbage</item>
+    </string-array>
+</resources>
