@@ -40,4 +40,8 @@ public class BuyerActivity extends AppCompatActivity {
         Intent intent = new Intent(this,BuyProductActivity.class);
         startActivity(intent);
     }
+    public void contact(View view){
+        Intent i = new Intent(this,ContactUsActivity.class);
+        startActivity(i);
+    }
 }

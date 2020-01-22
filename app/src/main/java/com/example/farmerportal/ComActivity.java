@@ -53,4 +53,13 @@ public class ComActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void myprd(View view){
+        Intent intent = new Intent(this,MyProductActivity.class);
+        startActivity(intent);
+    }
+
+    public void contact(View view){
+        Intent i = new Intent(this,ContactUsActivity.class);
+        startActivity(i);
+    }
 }

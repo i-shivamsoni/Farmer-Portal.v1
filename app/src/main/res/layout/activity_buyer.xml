@@ -87,6 +87,7 @@
         android:layout_marginTop="20sp"
         android:background="#F3DA91"
         android:gravity="center"
+        android:onClick="contact"
         android:text="@string/ContactUs"
         android:textColor="#5F0505"
         android:textSize="20sp"

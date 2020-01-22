@@ -17,6 +17,9 @@ public class MainActivity extends AppCompatActivity {
     String root = "1";
     String root_pass = "1";
 
+    String root1 = "2";
+    String root1_pass = "2";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,10 +39,10 @@ public class MainActivity extends AppCompatActivity {
         String phoneid = phoneId.getText().toString();
         String pass_1 = passId.getText().toString();
 
-        if(phoneid.equalsIgnoreCase(root) && pass_1.equals(root_pass)){
-            String cat = "buyer";
+        if(phoneid.equalsIgnoreCase(root) && pass_1.equals(root_pass) || phoneid.equalsIgnoreCase(root1) && pass_1.equals(root1_pass)){
+            String cat = "seller";
             Class a;
-            if(cat.equalsIgnoreCase("buyer")){
+            if(phoneid.equalsIgnoreCase("2")){
                 a = BuyerActivity.class;
             }
             else{
@@ -58,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
             AlertDialog alert = b.create();
             alert.show();
         }
+
+
        // Toast.makeText(this,phone_pass,Toast.LENGTH_SHORT).show();
 
     }

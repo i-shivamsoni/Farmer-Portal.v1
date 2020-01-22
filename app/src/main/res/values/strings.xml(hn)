@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Farmer Portal</string>
+    <string name="head">Farmer\'s Portal</string>
+    <string name="welcome">स्वागत हे</string>
+    <string name="acc"><u>खाता बनाए</u></string>
+    <string-array name="उपयोगकर्ता">
+        <item>खरीदार</item>
+        <item>विक्रेता</item>
+    </string-array>
+    <string-array name="भाषा">
+        <item>इंग्लीश</item>
+        <item>हिन्दी</item>
+    </string-array>
+    <string-array name="वर्ग">
+        <item>चावल</item>
+        <item> गेहू</item>
+        <item>प्याज</item>
+        <item>टमाटर</item>
+        <item> पत्तागोभी</item>
+    </string-array>
+    <string name="about">About us</string>
+    <string name="BuyProduct">Buy Product</string>
+    <string name="Categories">Categories</string>
+    <string name="Price">Price</string>
+    <string name="Quantity">Quantity</string>
+    <string name="Submit">Submit</string>
+    <string name="Welcome">Welcome!!</string>
+    <string name="MyProfile">> My Profile</string>
+    <string name="Buy">> Buy product</string>
+    <string name="AboutUs">> About Us</string>
+    <string name="ContactUs">> Contact Us</string>
+    <string name="Help">> Help!!</string>
+    <string name="logout">> Logout</string>
+    <string name="Add">> Add product</string>
+    <string name="edit">> My product/Edit</string>
+    <string name="list">Farmer\'s List</string>
+    <string name="launnchpara">Connecting Farmers and Buyers all over the nation</string>
+    <string name="cont">Sign in to continue</string>
+    <string name="ennum">Enter your mobile no.</string>
+    <string name="enpass">Enter your password</string>
+    <string name="pass">Password</string>
+    <string name="clickLogin">Click here to LOGIN</string>
+    <string name="LoginGoogle">Login with Google</string>
+    <string name="dontacc">Don\'t have an account?</string>
+    <string name="clickhere">Click Here</string>
+    <string name="or">Or</string>
+    <string name="result">Result</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile No.</string>
+    <string name="state">State</string>
+    <string name="Farmer">Farmer</string>
+    <string name="box">Message Box</string>
+
+</resources>
