@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">कृषि पोर्टल .</string>
+    <string name="head">कृषि पोर्टल</string>
+    <string name="wel">आपका स्वागत</string>
+    <string name="acc"><u>नया ख़ाता बनाए</u></string>
+    <string-array name="user">
+        <item>खरीददार</item>
+        <item>विक्रेता</item>
+    </string-array>
+    <string-array name="lang">
+        <item>English</item>
+        <item>हिन्दी</item>
+    </string-array>
+    <string-array name="cat">
+        <item>चावल</item>
+        <item>गेहू</item>
+        <item>प्याज़</item>
+        <item>टमाटर</item>
+        <item>फूल गोभी</item>
+    </string-array>
+    <string name="about">जानकारी</string>
+    <string name="BuyProduct">उपज खरीदे</string>
+    <string name="Categories">वर्ग</string>
+    <string name="Price">कीमत</string>
+    <string name="Quantity">मात्रा</string>
+    <string name="Submit">जामाकरे</string>
+    <string name="Welcome">स्वागत !!</string>
+    <string name="MyProfile">>मेरा ख़ाता</string>
+    <string name="Buy">> उपज खरीदे</string>
+    <string name="AboutUs">> जानकारी</string>
+    <string name="ContactUs">> जानकारी के लिए संपर्क</string>
+    <string name="Help">> मदत!!</string>
+    <string name="logout">> लोग आउट</string>
+    <string name="Add">> उत्पाद जोड़े</string>
+    <string name="edit">>मेरी उत्पाद / बदलाव </string>
+    <string name="list">किसानो की सूची</string>
+    <string name="launnchpara">किसान देश की आत्मा</string>
+    <string name="cont">जारी रखने के लिए साइन इन करें</string>
+    <string name="ennum">अपना मोबाइल नंबर डालें।</string>
+    <string name="enpass">अपना पासवर्ड डालें</string>
+    <string name="pass">पासवर्ड</string>
+    <string name="clickLogin">लॉग इन करने के लिए यहां क्लिक करें
+</string>
+    <string name="LoginGoogle">Google के साथ लॉगिन </string>
+    <string name="dontacc">
+खाता नहीं है?</string>
+    <string name="clickhere">
+यहाँ क्लिक करें</string>
+    <string name="or">
+या</string>
+    <string name="result">
+परिणाम</string>
+    <string name="name">नाम</string>
+    <string name="mobile">मोबाइल न
+</string>
+    <string name="state">राज्य
+</string>
+    <string name="Farmer">किसान</string>
+    <string name="box">संदेश पात्र
+</string>
+
+</resources>
