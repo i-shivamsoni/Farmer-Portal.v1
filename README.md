@@ -29,4 +29,4 @@ use the "gradlew build" command or use "Import Project" in Android Studio.
 ## Contributing
 feel free for submitting pull requests.
 
-###### Contributor @i-shivamsoni @mohit-codes @akshatoxy 
+###### Contributor @i-shivamsoni @mohit-codes @Akshatoxy @Kritika-2075 @Nitindwivedi123 @Asmit-Bajaj
